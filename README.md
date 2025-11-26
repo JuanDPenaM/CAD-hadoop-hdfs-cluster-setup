@@ -23,9 +23,6 @@ Se configuró un factor de replicación (`dfs.replication`) de **3**, garantizan
 │   └── workers               # Lista de nodos DataNode
 ├── report/
 │   ├── informe.pdf           # Informe final del taller en formato IEEE
-│   ├── informe.tex           # Código fuente del informe en LaTeX
-│   ├── arquitectura_hdfs.png # Diagramas e imágenes utilizadas
-│   └── ...
 ├── sample_data/
 │   ├── recuento.txt          # Archivos de texto de ejemplo para probar
 │   └── CHARLIE.txt           # comandos HDFS
