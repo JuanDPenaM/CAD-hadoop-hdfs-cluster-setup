@@ -39,7 +39,8 @@ Define el NameNode (`cadhead01`) como el punto de entrada para todo el sistema d
 <property>
     <name>fs.defaultFS</name>
     <value>hdfs://cadhead01:9000</value>
-</property>```
+</property>
+```
 
 ### `hdfs-site.xml`
 Especifica las rutas locales para los datos del NameNode y DataNodes, y establece el factor de replicación en 3.
