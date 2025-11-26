@@ -1,0 +1,26 @@
+<configuration>
+    <property>
+        <name>dfs.namenode.name.dir</name>
+        <value>file:/mnt/hadoop/NameNode</value>
+    </property>
+    <property>
+        <name>dfs.datanode.data.dir</name>
+        <value>file:/mnt/hadoop/DataNode</value>
+    </property>
+    <property>
+        <name>dfs.replication</name>
+        <value>3</value>
+    </property>
+    <property>
+        <name>dfs.permission</name>
+        <value>false</value>
+    </property>
+    <property>
+        <name>dfs.webhdfs.enabled</name>
+        <value>true</value>
+    </property>
+    <property>
+        <name>ipc.maximum.data.length</name>
+        <value>134217728</value>
+    </property>
+</configuration>

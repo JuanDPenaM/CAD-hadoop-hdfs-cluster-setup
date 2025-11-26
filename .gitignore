@@ -1,0 +1,21 @@
+# Archivos y directorios de Hadoop generados
+hadoop-3.3.6/
+hadoop-3.3.6.tar.gz
+logs/
+*.pid
+
+# Archivos temporales de LaTeX
+*.aux
+*.log
+*.bbl
+*.blg
+*.out
+*.toc
+*.lof
+*.lot
+*.fdb_latexmk
+*.synctex.gz
+_minted*
+
+# Archivos de sistema
+.DS_Store
